@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ul{
+    list-style:disc;
+    padding: 0px 10px;
+}
+
+li::marker{
+    color: red;
+}
